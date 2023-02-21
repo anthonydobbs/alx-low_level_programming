@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
- * main - print numbers from 00 to 99.
-(*
+ * main - print numbers from 01 to 89.
+ *
  * Return: 0 on success
  */
 int main(void)
 {
-	int i = '0';
+	int i = '1';
 	int j = '0';
 
 	while (i <= '9')
 	{
-		while (j <= '9')
+		while (j <= '8')
 		{
 			putchar(i);
 			putchar(j);
-			if (j == '9' && i == '9')
+			if (j == '8' && i == '9')
 			{
 				putchar('\n');
 			}
@@ -26,7 +26,7 @@ int main(void)
 			}
 			j++;
 		}
-		if (j >= '9')
+		if (j >= '8')
 		{
 			j = '0';
 		}
