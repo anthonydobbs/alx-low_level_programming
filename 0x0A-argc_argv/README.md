@@ -1,1 +1,1 @@
-My argv and argc command line arguments
+prints the number of arguments passed
