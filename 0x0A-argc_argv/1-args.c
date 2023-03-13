@@ -4,12 +4,15 @@
 /**
  * main - prints the number of arguments passed
  * @argc: argument counts
+ * @argv: array of arguments
  *
  * Return: 0 Always
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
-		printf("argc = %d\n", argc);
+(void)argv; /*ignore argv*/
+
+	printf("argc = %d\n", argc);
 
 	return (0);
 }
