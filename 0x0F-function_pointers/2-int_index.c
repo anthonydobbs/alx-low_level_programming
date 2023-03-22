@@ -2,11 +2,11 @@
 #include "function_operators.h"
 
 /**
- * int_index - searches for an integer
+ * int_index - return index place if comparison = true, else -1
  * @array: array
  * @size: size of the array element to be searched
  * @cmp:  pointer to the function to be used to compare values
- * Return: -1
+ * Return: 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
