@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "function_pointer.h"
+#include "function_pointers.h"
 
-/*
- * array_iteration - an array that allows the pointer to iterate over functions
+/**
+ * array_iteration - prints each array element on a new line
  * @array: array
  *@size: size of the array
  *@action: pointer to print
@@ -17,6 +17,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	for (i = 0; i < size; i++)
 	{
-		(action)(array[i]);
+		action(array[i]);
 	}
 }
