@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * array_iteration - prints each array element on a new line
+ * array_iterator - prints each array element on a new line
  * @array: array
  *@size: size of the array
  *@action: pointer to print
